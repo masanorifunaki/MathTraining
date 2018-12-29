@@ -153,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="629.60000000000002" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="sSA-E7-sHV">
             <objects>
-                <viewController id="XaU-Ds-BJM" sceneMemberID="viewController">
+                <viewController id="XaU-Ds-BJM" customClass="ResultViewController" customModule="MathTraining" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E2j-ko-bL1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,13 +190,21 @@
                                 <state key="normal" title="BACK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wwh-zY-Sjl" kind="unwind" unwindAction="backToTitleWithSender:" id="uLf-fc-dLj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ODa-Xo-9SE"/>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="d4J-95-87l" id="kiA-kc-r4K"/>
+                        <outlet property="resultLabel" destination="LLj-V6-coS" id="adg-HK-vbg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rJX-MN-neq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="wwh-zY-Sjl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1448.8" y="133.5832083958021"/>
         </scene>

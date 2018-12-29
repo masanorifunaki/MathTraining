@@ -26,6 +26,16 @@ class QuizViewController: UIViewController {
         setQuestion()
     }
 
+    // 次の画面の遷移時に実行される
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // resultVC は ResultViewController のサブクラス
+        // 型を明記するため、as を使う
+        // segue.destination は UIViewControllerの型を持っている
+        if let resultVC = segue.destination as? ResultViewController {
+            resultVC.result = Double(correct) / Double(total) * 100.0
+        }
+    }
+
     @IBAction func tapped(sender: UIButton) {
         if sender.tag - 1 == answerIndex {
             correct += 1

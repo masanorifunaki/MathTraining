@@ -13,6 +13,7 @@
 		20ADABC321D6FFA400E4ABBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADABC221D6FFA400E4ABBE /* Assets.xcassets */; };
 		20ADABC621D6FFA400E4ABBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ADABC421D6FFA400E4ABBE /* LaunchScreen.storyboard */; };
 		20ADABCE21D705AE00E4ABBE /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADABCD21D705AE00E4ABBE /* QuizViewController.swift */; };
+		20ADABD021D70CC400E4ABBE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADABCF21D70CC400E4ABBE /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20ADABC521D6FFA400E4ABBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20ADABC721D6FFA400E4ABBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20ADABCD21D705AE00E4ABBE /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		20ADABCF21D70CC400E4ABBE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				20ADABBB21D6FFA300E4ABBE /* AppDelegate.swift */,
 				20ADABBD21D6FFA300E4ABBE /* ViewController.swift */,
 				20ADABCD21D705AE00E4ABBE /* QuizViewController.swift */,
+				20ADABCF21D70CC400E4ABBE /* ResultViewController.swift */,
 				20ADABBF21D6FFA300E4ABBE /* Main.storyboard */,
 				20ADABC221D6FFA400E4ABBE /* Assets.xcassets */,
 				20ADABC421D6FFA400E4ABBE /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				20ADABCE21D705AE00E4ABBE /* QuizViewController.swift in Sources */,
 				20ADABBE21D6FFA300E4ABBE /* ViewController.swift in Sources */,
 				20ADABBC21D6FFA300E4ABBE /* AppDelegate.swift in Sources */,
+				20ADABD021D70CC400E4ABBE /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
